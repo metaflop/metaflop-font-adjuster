@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                                                         %%%
+%%% Adjuster v1.1 – a Metaflop-Font                                         %%%
+%%% © 2012 by Simon Egli, Marco Müller                                      %%%
+%%% www.metaflop.com                                                        %%%
+%%%                                                                         %%%
+%%% This program is free software: you can redistribute it and/or modify    %%%
+%%% it under the terms of the GNU General Public License as published by    %%%
+%%% the Free Software Foundation, either version 3 of the License, or       %%%
+%%% (at your option) any later version.                                     %%%
+%%%                                                                         %%%
+%%% This program is distributed in the hope that it will be useful,         %%%
+%%% but WITHOUT ANY WARRANTY; without even the implied warranty of          %%% 
+%%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            %%% 
+%%% GNU General Public License for more details.                            %%%
+%%%                                                                         %%%
+%%% You should have received a copy of the GNU General Public License       %%%
+%%% along with this program. If not, see <http://www.gnu.org/licenses/>.    %%%
+%%%                                                                         %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% DIMENSION %%%%%%
+
+font_size:=10pt#;% font size  / nicht verstellbar  		
+ht#:=10pt#;      % box height / nicht verstellbar		
+u#:=0.95pt#;     % unit widht 					$ 0.8 / 2
+px#:=0.1pt#;     % pen width 					$ 0.15 / 1.8 
+py#:=0.1pt#;     % pen height	
+				
+%%%%% PROPORTION %%%%%%
+
+cap#:=1.0ht#;    % cap heigt					$ 0.75 / 1	
+bar#:=0.5ht#;    % bar height					$ 0.3 / 0.8
+
+%%%%% SHAPE %%%%%
+
+ang:=45;         % glyph angle setting                           $ 0 / 2
+penang:=45;      % pen angle setting
+penshape:=1;     % 1=circle / 2=square / 3=razor
+
+%%%%% export %%%%%
+
+sidebearing:=0;    % switch sidebearings off (0) for .otf export, (1) for on
+
+
+input glyphs;
+bye;
+
