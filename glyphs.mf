@@ -55,7 +55,7 @@ mode_setup;
 define_pixels(s,u);
 define_blacker_pixels(px,py);
 define_good_x_pixels(leftstemloc, letter_fit);
-define_good_y_pixels(cap, bar);
+define_good_y_pixels(cap, bar, bar1, bar2, bar4, bar5);
 % define_corrected_pixels(o);
 
 
@@ -108,25 +108,27 @@ input glyphs/uc/X
 input glyphs/uc/Y
 input glyphs/uc/Z
 
-%input glyphs/num/0
-%input glyphs/num/1
-%input glyphs/num/2
-%input glyphs/num/3
-%input glyphs/num/4
-%input glyphs/num/5
-%input glyphs/num/6
-%input glyphs/num/7
-%input glyphs/num/8
-%input glyphs/num/9
+input glyphs/num/0
+input glyphs/num/1
+input glyphs/num/2
+input glyphs/num/3
+input glyphs/num/4
+input glyphs/num/5
+input glyphs/num/6
+input glyphs/num/7
+input glyphs/num/8
+input glyphs/num/9
 
-%input glyphs/punct/comma
-
-%input glyphs/punct/colon
-
-%input glyphs/punct/semicolon
-%input glyphs/punct/period
-%input glyphs/punct/exclam
-% input glyphs/punct/space
+input glyphs/punct/comma
+input glyphs/punct/hyphen
+input glyphs/punct/plus
+input glyphs/punct/equal
+input glyphs/punct/slash
+input glyphs/punct/colon
+input glyphs/punct/semicolon
+input glyphs/punct/period
+input glyphs/punct/excl
+input glyphs/punct/question
 
 
 font_quad:=10u#+0s#;

@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("B",5.5,cap#,0);
+beginadjchar("B",5,cap#,0);
 
 %%% sidebearings %%%
 
@@ -45,12 +45,12 @@ z6=z7+whatever*dir(ang);
 z4=z5+whatever*dir-(ang);
 
 y1=y10=0;
-y9=1/6h;
-y8=2/6h;
+y9=bar1;
+y8=bar2;
 y2=y7=bar;
 
-y6=4/6h;
-y5=5/6h;
+y6=bar4;
+y5=bar5;
 y3=y4=h;
 %top y8= top y9=h;
 %draw z1--z2--z3--z4..z5..z6..z7--z2 & z2--z7..z8..z9..z10--cycle;	% straight and round Adjuster

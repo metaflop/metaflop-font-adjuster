@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("D",5.5,cap#,0);
+beginadjchar("D",5,cap#,0);
 
 %%% sidebearings %%%
 
@@ -43,9 +43,9 @@ z4=z3+whatever*dir-(ang);
 y1=y6=0;
 z5=z6+whatever*dir(ang);   
 
-y4=5/6h;
+y4=bar5;
 
-y5=1/6h;
+y5=bar1;
 draw z1--z2--z3--z4--z5--z6--cycle;
 
 %penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs

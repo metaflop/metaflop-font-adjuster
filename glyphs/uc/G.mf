@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("G",5.5,cap#,0);
+beginadjchar("G",5,cap#,0);
 
 %%% sidebearings %%%
 
@@ -37,8 +37,8 @@ fi
 x1=x2=w-x8=leftstemloc;
 x8=x7=x5;
 x6=.5(x8-x1);
-y8=y1=1/6h;
-y2=y5=5/6h;
+y8=y1=bar1;
+y2=y5=bar5;
 z2=z3+whatever*dir(ang);   
 z9=z8+whatever*dir(ang);
 z4=z5+whatever*dir-(ang);

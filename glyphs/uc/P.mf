@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("P",5.5,cap#,0);
+beginadjchar("P",5,cap#,0);
 
 %%% sidebearings %%%
 
@@ -41,8 +41,8 @@ x4=x7;
 z5=z4+whatever*dir-(ang);   
 z6=z7+whatever*dir(ang);
  
-y5=5/6h;
-y6=4/6h;
+y5=bar5;
+y6=bar4;
 y2=y7=bar;
 
 y3=y4=h;

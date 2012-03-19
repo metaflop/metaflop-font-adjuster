@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("H",5.5,cap#,0);
+beginadjchar("H",5,cap#,0);
 
 %%% sidebearings %%%
 

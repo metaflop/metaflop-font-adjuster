@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("O",5,cap#,0);
+beginadjchar(oct"075",2,cap#,0);
 
 %%% sidebearings %%%
 
@@ -34,20 +34,14 @@ fi
 
 %%% construction %%%
 
-x1=x7=w-x4=leftstemloc;
-x3=x9;
+x1=x3=w-x2=leftstemloc;
+x2=x4;
 
-z7=z8+whatever*dir(ang);   
-z3=z4+whatever*dir(ang);
-z2=z1+whatever*dir-(ang);
-z9=z10+whatever*dir-(ang);
-y2=y3=0;
+y1=y2=1.15bar;
+y3=y4=0.85bar;
 
-y8=y9=h;
-
-y7=y10=bar5;
-y1=y4=bar1;
-draw z4--z3--z2--z1--z7--z8--z9--z10--cycle;
+draw z1--z2;
+draw z3--z4;
 
 %penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 
