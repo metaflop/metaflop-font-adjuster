@@ -23,9 +23,9 @@
 
 font_size:=10pt#;% font size  / nicht verstellbar  		
 ht#:=10pt#;      % box height / nicht verstellbar		
-u#:=1.00pt#;     % unit widht 					$ 0.5 / 2
-px#:=0.1pt#;     % pen width 					$ 0.1 / 2.8 
-py#:=0.1pt#;     % pen height					$ 0.1 / 2.8	
+u#:=1.20pt#;     % unit widht 					$ 0.5 / 2
+px#:=0.5pt#;     % pen width 					$ 0.1 / 2.8 
+py#:=0.5pt#;     % pen height					$ 0.1 / 2.8	
 				
 %%%%% PROPORTION %%%%%%
 
@@ -39,8 +39,8 @@ bar1#:=1/6ht#;
 
 %%%%% SHAPE %%%%%
 
-ang:=45;         % glyph angle setting                          $ 0 / 360
-penang:=45;      % pen angle setting				$ 0 / 360
+ang:=38;        % glyph angle setting                          $ 0 / 360
+penang:=15;      % pen angle setting				$ 0 / 360
 penshape:=1;     % 1=circle / 2=square / 3=razor
 
 %%%%% export %%%%%

@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("period",2,cap#,0);
+beginadjchar(oct"056",2,cap#,0);
 
 %%% sidebearings %%%
 

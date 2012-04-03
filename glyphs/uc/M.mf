@@ -40,7 +40,8 @@ x3=.5w;
 
 y1=y5=0;
 
-z4=z3+whatever*dir(ang);
+% z4=z3+whatever*dir(ang);
+y3=bar;
 
 y2=y4=h;
 

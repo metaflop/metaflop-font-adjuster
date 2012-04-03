@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("hyphen",2,cap#,0);
+beginadjchar(oct"055",2,cap#,0);
 
 %%% sidebearings %%%
 

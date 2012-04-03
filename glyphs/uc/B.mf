@@ -53,12 +53,12 @@ y6=bar4;
 y5=bar5;
 y3=y4=h;
 %top y8= top y9=h;
-%draw z1--z2--z3--z4..z5..z6..z7--z2 & z2--z7..z8..z9..z10--cycle;	% straight and round Adjuster
-%draw z1--z2--z3---z4..z5..z6..z7---z2 & z2---z7..z8..z9..z10---cycle;	% round Adjuster (works best with angle 35)
-draw z1--z3--z4--z5--z6--z7--z8--z9--z10--cycle;	% original Adjuster
-draw z2--z7;
+%draw z1--z2--z3--z4--z5--z6--z7--z2 & z2--z7--z8--z9--z10--cycle;	% straight and round Adjuster
+draw z1--z2--z3---z4--z5--z6--z7---z2 & z2---z7--z8--z9--z10---cycle;	% round Adjuster (works best with angle 35)
+%draw z1--z3--z4--z5--z6--z7--z8--z9--z10--cycle;	% original Adjuster
+%draw z2--z7;
 
-%penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
+penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 
 
 endchar;

@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("5",5,cap#,0);
+beginadjchar("u",5,cap#,0);
 
 %%% sidebearings %%%
 
@@ -36,24 +36,19 @@ fi
 
 %%% construction %%%
 
-x10=x3=x2=w-x7=leftstemloc;
-x1=x6=x7;
+x1=x2=w-x6=leftstemloc;
+x5=x6;
 
-z4=z3+whatever*dir(ang); 
-z6=z5+whatever*dir-(ang); 
+z2=z3+whatever*dir-(ang); 
+z4=z5+whatever*dir(ang); 
 
-z9=z10+whatever*dir-(ang); 
-z8=z7+whatever*dir(ang); 
+y3=y4=0;
+y2=y5=bar1;
 
-y9=y8=0;
-y10=y7=bar1;
-y3=y6=bar2;
+y1=y6=bar;
 
-y4=y5=bar;
+draw z1---z2--z3---z4--z5---z6;
 
-y2=y1=h;
-
-draw z1--z2--z3--z4---z5--z6---z7--z8---z9--z10;	% original Adjuster
 
 penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 

@@ -108,6 +108,33 @@ input glyphs/uc/X
 input glyphs/uc/Y
 input glyphs/uc/Z
 
+input glyphs/lc/a
+input glyphs/lc/b
+input glyphs/lc/c
+input glyphs/lc/d
+input glyphs/lc/e
+input glyphs/lc/f
+input glyphs/lc/g
+input glyphs/lc/h
+input glyphs/lc/i
+input glyphs/lc/j
+input glyphs/lc/k
+input glyphs/lc/l
+input glyphs/lc/m
+input glyphs/lc/n
+input glyphs/lc/o
+input glyphs/lc/p
+input glyphs/lc/q
+input glyphs/lc/r
+input glyphs/lc/s
+input glyphs/lc/t
+input glyphs/lc/u
+input glyphs/lc/v
+input glyphs/lc/w
+input glyphs/lc/x
+input glyphs/lc/y
+input glyphs/lc/z
+
 input glyphs/num/0
 input glyphs/num/1
 input glyphs/num/2
@@ -129,7 +156,8 @@ input glyphs/punct/semicolon
 input glyphs/punct/period
 input glyphs/punct/excl
 input glyphs/punct/question
-
+input glyphs/punct/amp2
+input glyphs/punct/space
 
 font_quad:=10u#+0s#;
 font_normal_space:=3u#+0s#;

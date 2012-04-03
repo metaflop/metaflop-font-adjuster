@@ -21,7 +21,7 @@
 
 %%% box dimension definition %%%
 
-beginadjchar("comma",2,cap#,0);
+beginadjchar(oct"054",2,cap#,0);
 
 %%% sidebearings %%%
 

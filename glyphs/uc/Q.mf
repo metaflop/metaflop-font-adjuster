@@ -48,10 +48,14 @@ y3=y4=h;
 
 y2=y5=bar5;
 y1=y6=y9=bar1;
-draw z1--z2--z3--z4--z5--z6--z7--z8--cycle;
+
+% draw z1--z2--z3--z4--z5--z6--z7--z8--cycle;
+
+draw z1---z2--z3---z4--z5---z6--z7---z8--cycle;
+
 draw z9--z10;
 
-%penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
+% penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 
 
 endchar;

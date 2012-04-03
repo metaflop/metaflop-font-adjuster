@@ -49,9 +49,12 @@ y3=y4=h;
 
 y1=0;
 
-draw z1--z3--z4--z5--z6--z7--z2;
+% draw z1--z3--z4--z5--z6--z7--z2;
 
-%penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
+draw z1--z3---z4--z5---z6--z7---z2;
+
+
+%  penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 
 
 endchar;

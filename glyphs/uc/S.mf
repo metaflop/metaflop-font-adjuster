@@ -51,7 +51,10 @@ y6=bar4;
 y5=bar2;
 y1=y4=bar1;
 
-draw z1--z2--z3--z4--z5--z6--z7--z8--z9--z10;
+% draw z1--z2--z3--z4--z5--z6--z7--z8--z9--z10;
+ 
+draw z1--z2---z3--z4---z5--z6---z7--z8---z9--z10;
+
 
 % penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 

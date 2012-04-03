@@ -47,9 +47,9 @@ y8=y9=h;
 
 y7=y10=bar5;
 y1=y4=bar1;
-draw z4--z3--z2--z1--z7--z8--z9--z10--cycle;
+draw z4--z3---z2--z1---z7--z8---z9--z10---cycle;
 
-%penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
+penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
 
 
 endchar;
