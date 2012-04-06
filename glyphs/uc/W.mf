@@ -1,53 +1,46 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                                                         %%%
-%%% Adjuster v1.1 – a Metaflop-Font                                         %%%
-%%% © 2012 by Simon Egli, Marco Müller                                      %%%
-%%% www.metaflop.com                                                        %%%
-%%%                                                                         %%%
-%%% This program is free software: you can redistribute it and/or modify    %%%
-%%% it under the terms of the GNU General Public License as published by    %%%
-%%% the Free Software Foundation, either version 3 of the License, or       %%%
-%%% (at your option) any later version.                                     %%%
-%%%                                                                         %%%
-%%% This program is distributed in the hope that it will be useful,         %%%
-%%% but WITHOUT ANY WARRANTY; without even the implied warranty of          %%% 
-%%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            %%% 
-%%% GNU General Public License for more details.                            %%%
-%%%                                                                         %%%
-%%% You should have received a copy of the GNU General Public License       %%%
-%%% along with this program. If not, see <http://www.gnu.org/licenses/>.    %%%
-%%%                                                                         %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% Adjuster v1.2                                                           %
+% a Metaflop-font © 2012 by Simon Egli, Marco Müller                      %
+% www.metaflop.com                                                        %
+%                                                                         %
+% This program is free software: you can redistribute it and/or modify    %
+% it under the terms of the GNU General Public License as published by    %
+% the Free Software Foundation, either version 3 of the License, or       %
+% (at your option) any later version.                                     %
+%                                                                         %
+% This program is distributed in the hope that it will be useful,         %
+% but WITHOUT ANY WARRANTY; without even the implied warranty of          % 
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            % 
+% GNU General Public License for more details.                            %
+%                                                                         %
+% You should have received a copy of the GNU General Public License       %
+% along with this program. If not, see <http://www.gnu.org/licenses/>.    %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% box dimension definition %%%
 
+% box dimension definition %
 beginadjchar("W",7,cap#,0);
 
-%%% sidebearings %%%
-
+% sidebearings %
 if (sidebearing=1):
-
 numeric l,r;
-normal_adjust_fit(space*0.3u#,space*0.3u#);
+normal_adjust_fit(space*0.3u#,space*0.3u#);fi
 
-fi
-
-%%% construction %%%
-
-x1=w-x5=leftstemloc;
-
-x3=.5w;
+% construction %
+x1=leftstemloc;
+x5=w-x1;
 x2=.25w;
+x3=.5w;
 x4=.75w;
-y2=y4=0;
 y1=y5=h;
-y3=bar;
+y2=y4=0;
+y3=bar3;
 
-draw z1--z2--z3--z4--z5;
+% draw %
+draw z1---z2---z3---z4---z5;
 
-%penlabels(range 0 thru 30);	% labeling of pen positions including l and r, on greyfont outputs
-
+% penlabels(range 0 thru 30);
 
 endchar;
-
-
