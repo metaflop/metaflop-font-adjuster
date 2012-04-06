@@ -28,8 +28,8 @@ px#:=0.5pt#;     % pen width 					$ 0.1 / 2.8
 py#:=0.5pt#;     % pen height					$ 0.1 / 2.8	
 				
 % proportion %
-cap#:=.8ht#;     % cap heigt					$ 0.75 / 1	
-bar#:=0.5cap#;    % bar height					$ 0.3 / 0.8
+cap#:=1ht#;      % cap heigt					$ 0.75 / 1	
+bar#:=0.5cap#;   % bar height					$ 0.3 / 0.8
 bar1#:=1/6cap#;
 bar2#:=2/6cap#;
 bar3#:=3/6cap#;

@@ -1,4 +1,4 @@
-This is METAFONT, Version 2.7182 (base=plain 2008.7.2)  6 APR 2012 11:34
+This is METAFONT, Version 2.7182 (base=plain 2008.7.2)  6 APR 2012 12:56
 **&plain font.mf
 (font.mf (glyphs.mf (glyphs/uc/A.mf [65]) (glyphs/uc/B.mf [66]) (glyphs/uc/C.mf
 [67]) (glyphs/uc/D.mf [68]) (glyphs/uc/E.mf [69]) (glyphs/uc/F.mf [70])
@@ -27,4 +27,4 @@ This is METAFONT, Version 2.7182 (base=plain 2008.7.2)  6 APR 2012 11:34
 (glyphs/punct/period.mf [46]) (glyphs/punct/excl.mf [33])
 (glyphs/punct/question.mf [63]) (glyphs/punct/amp.mf [38])
 (glyphs/punct/space.mf [32])) )
-Output written on font.2602gf (74 characters, 74008 bytes).
+Output written on font.2602gf (74 characters, 90824 bytes).

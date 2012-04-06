@@ -34,7 +34,7 @@ x4=x5=w-x1;
 y5=h;
 y2=y3=0;
 y1=y4=bar1;
-z1=z2+whatever*dir(-ang);   
+z2=z1+whatever*dir(-ang);   
 z3=z4+whatever*dir(ang);
 
 % draw %

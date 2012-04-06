@@ -53,7 +53,6 @@ define_good_x_pixels(leftstemloc, letter_fit);
 define_good_y_pixels(cap, bar1, bar2, bar3, bar4, bar5);
 % define_corrected_pixels(o);
 
-
 % pen settings %
 if penshape=1:
 pickup pencircle xscaled px yscaled py rotated penang; 
@@ -69,7 +68,6 @@ def beginadjchar(expr code, unit_width, h, d) =
  beginchar(code,unit_width*u#+s#,h,d);
 pickup adj_pen;
 enddef;
-
 
 % glyph inputs %
 input glyphs/uc/A
