@@ -31,8 +31,8 @@ normal_adjust_fit(space*0.3u#,space*0.3u#);fi
 % construction %
 x1=x2=x3=x4=.5w;
 y1=0;
-y2=-0.1bar1;
-y3=0.9bar3;
+y2=-0.3bar1;
+y3=bar3-.3bar1;
 y4=bar3;
 
 % draw %
