@@ -40,6 +40,6 @@ y4=bar1;
 draw z1---z2;
 draw z3---z4;
 
-penlabels(range 0 thru 30);
+% penlabels(range 0 thru 30);
 
 endchar;
