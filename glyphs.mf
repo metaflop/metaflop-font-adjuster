@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
-% Adjuster v1.2                                                           %
-% a Metaflop-font © 2012 by Simon Egli, Marco MŸller                      %
+% MF Adjuster v1.2                                                        %
+% a Metaflop font ï¿½ 2012 by Simon Egli, Marco Mï¿½ller                      %
 % www.metaflop.com                                                        %
 %                                                                         %
 % This program is free software: you can redistribute it and/or modify    %
@@ -21,26 +21,25 @@
 
 
 % additional parameters / hidden parameter list %
-s#:=0.15u#;      % extra space / compress glyphs
-leftstemloc#:=0.2u#+s#;	% position of left stem
-letter_fit#:=0.0u#; % amount of letter fit
-shrink_fit:=.0u#;  % amount of shrink fit
-space:=0; % letterspacing (0 = compress)
+s#:=0.15u#;                % extra space / compress glyphs
+leftstemloc#:=0.2u#+s#;	   % position of left stem
+letter_fit#:=0.0u#;        % amount of letter fit
+shrink_fit:=.0u#;          % amount of shrink fit
+space:=0;                  % letterspacing (0 = compress)
 
 % sidebearings on / off %
-% definition of left and right-side bearings. To use in glyph after beginchar: normal_adjust_fit(-1.5u#,-1.5u#);
 if (sidebearing=1):
- def normal_adjust_fit(expr left_adjustment,right_adjustment) = 
- l := -hround(left_adjustment*hppp)-letter_fit#; 
- interim xoffset := -l; charwd := charwd+2letter_fit#+left_adjustment+right_adjustment; 
- r := l+hround(charwd*hppp)-shrink_fit;
- w := r-hround(right_adjustment*hppp)-letter_fit#; enddef;fi
+def normal_adjust_fit(expr left_adjustment,right_adjustment) = 
+l := -hround(left_adjustment*hppp)-letter_fit#; 
+interim xoffset := -l; charwd := charwd+2letter_fit#+left_adjustment+right_adjustment; 
+r := l+hround(charwd*hppp)-shrink_fit;
+w := r-hround(right_adjustment*hppp)-letter_fit#; enddef;fi
 
 def endchar =
- scantokens extra_endchar;
- chardx:=w;
- shipit;
- endgroup enddef;	
+scantokens extra_endchar;
+chardx:=w;
+shipit;
+endgroup enddef;	
 
 % mode=localfont;
 mode=luxo;
@@ -61,12 +60,11 @@ elseif penshape=2:
 pickup pensquare xscaled px yscaled py rotated penang; 
 elseif penshape=3:
 pickup penrazor xscaled px rotated penang; fi
-
 adj_pen:=savepen;
 
 % begin charater macro %
 def beginadjchar(expr code, unit_width, h, d) =
- beginchar(code,unit_width*u#+s#,h,d);
+beginchar(code,unit_width*u#+s#,h,d);
 pickup adj_pen;
 enddef;
 
@@ -136,17 +134,14 @@ input glyphs/num/7
 input glyphs/num/8
 input glyphs/num/9
 
-input glyphs/punct/comma
-input glyphs/punct/hyphen
-input glyphs/punct/plus
-input glyphs/punct/equal
-input glyphs/punct/slash
-input glyphs/punct/colon
-input glyphs/punct/semicolon
-input glyphs/punct/period
-input glyphs/punct/excl
-input glyphs/punct/question
 input glyphs/punct/amp
+input glyphs/punct/colon
+input glyphs/punct/comma
+input glyphs/punct/exclam
+input glyphs/punct/hyphen
+input glyphs/punct/period
+input glyphs/punct/plus
+input glyphs/punct/semicolon
 input glyphs/punct/space
 
 font_quad:=10u#+0s#;
