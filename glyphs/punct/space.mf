@@ -33,6 +33,6 @@ x1=leftstemloc;
 x2=w-x1;
 y1=y2=0;
 
-penlabels(range 0 thru 30);
+% penlabels(range 0 thru 30);
 
 endchar;
