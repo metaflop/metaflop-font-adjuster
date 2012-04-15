@@ -36,6 +36,7 @@ bar3#:=3/6cap#;
 bar4#:=4/6cap#;
 bar5#:=5/6cap#;
 mean#:=.5cap#;
+asc#:=1.0cap#;
 
 % shape %
 ang:=45;         % glyph angle setting           $ 0 / 360

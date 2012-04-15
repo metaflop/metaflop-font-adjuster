@@ -51,7 +51,7 @@ define_pixels(s,u);
 define_blacker_pixels(px,py);
 define_good_x_pixels(leftstemloc, letter_fit);
 define_good_y_pixels(cap, bar1, bar2, bar3, bar4, bar5);
-define_good_y_pixels(mean);
+define_good_y_pixels(mean, asc);
 % define_corrected_pixels(o);
 
 % pen settings %
