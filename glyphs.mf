@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
 % MF Adjuster v1.2                                                        %
-% a Metaflop font ï¿½ 2012 by Simon Egli, Marco Mï¿½ller                      %
+% a Metaflop font © 2012 by Simon Egli, Marco MŸller                      %
 % www.metaflop.com                                                        %
 %                                                                         %
 % This program is free software: you can redistribute it and/or modify    %
@@ -21,11 +21,11 @@
 
 
 % additional parameters / hidden parameter list %
-s#:=0.15u#;                % extra space / compress glyphs
-leftstemloc#:=0.2u#+s#;	   % position of left stem
-letter_fit#:=0.0u#;        % amount of letter fit
-shrink_fit:=.0u#;          % amount of shrink fit
-space:=0;                  % letterspacing (0 = compress)
+s#:=0.15u#;             % extra space / compress glyphs
+leftstemloc#:=0.2u#+s#;	% position of left stem
+letter_fit#:=0.0u#;     % amount of letter fit
+shrink_fit:=.0u#;       % amount of shrink fit
+space:=0;               % letterspacing (0 = compress)
 
 % sidebearings on / off %
 if (sidebearing=1):
@@ -50,7 +50,6 @@ define_pixels(s,u);
 define_blacker_pixels(px,py);
 define_good_x_pixels(leftstemloc, letter_fit);
 define_good_y_pixels(cap, bar1, bar2, bar3, bar4, bar5);
-define_good_y_pixels(mean, asc);
 % define_corrected_pixels(o);
 
 % pen settings %
@@ -70,6 +69,7 @@ enddef;
 
 % glyph inputs %
 input glyphs/uc/A
+input glyphs/uc/Adieresis
 input glyphs/uc/B
 input glyphs/uc/C
 input glyphs/uc/D
@@ -84,12 +84,14 @@ input glyphs/uc/L
 input glyphs/uc/M
 input glyphs/uc/N
 input glyphs/uc/O
+input glyphs/uc/Odieresis
 input glyphs/uc/P
 input glyphs/uc/Q
 input glyphs/uc/R
 input glyphs/uc/S
 input glyphs/uc/T
 input glyphs/uc/U
+input glyphs/uc/Udieresis
 input glyphs/uc/V
 input glyphs/uc/W
 input glyphs/uc/X
@@ -97,6 +99,7 @@ input glyphs/uc/Y
 input glyphs/uc/Z
 
 input glyphs/lc/a
+input glyphs/lc/adieresis
 input glyphs/lc/b
 input glyphs/lc/c
 input glyphs/lc/d
@@ -111,12 +114,14 @@ input glyphs/lc/l
 input glyphs/lc/m
 input glyphs/lc/n
 input glyphs/lc/o
+input glyphs/lc/odieresis
 input glyphs/lc/p
 input glyphs/lc/q
 input glyphs/lc/r
 input glyphs/lc/s
 input glyphs/lc/t
 input glyphs/lc/u
+input glyphs/lc/udieresis
 input glyphs/lc/v
 input glyphs/lc/w
 input glyphs/lc/x
@@ -142,10 +147,19 @@ input glyphs/punct/hyphen
 input glyphs/punct/period
 input glyphs/punct/plus
 input glyphs/punct/semicolon
+input glyphs/punct/slash
 input glyphs/punct/space
+
+input glyphs/punct/endash
+input glyphs/punct/emdash
+input glyphs/punct/quotesingle
+input glyphs/punct/quotedbl
+input glyphs/punct/parenleft
+input glyphs/punct/parenright
+input glyphs/punct/asterisk
 
 font_quad:=10u#+0s#;
 font_normal_space:=3u#+0s#;
 font_normal_stretch:=0u#;
 font_normal_shrink:=0u#;
-font_coding_scheme:="OT1";
+font_coding_scheme:="isolatin1";

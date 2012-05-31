@@ -39,6 +39,6 @@ y4=bar3-.3bar1;
 draw z3---z4;
 draw z1---z2;
 
-% penlabels(range 0 thru 30);
+penlabels(range 0 thru 30);
 
 endchar;

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
-% Adjuster v1.2                                                           %
-% a Metaflop-font © 2012 by Simon Egli, Marco Müller                      %
+% MF Adjuster v1.2                                                        %
+% a Metaflop font © 2012 by Simon Egli, Marco Müller                      %
 % www.metaflop.com                                                        %
 %                                                                         %
 % This program is free software: you can redistribute it and/or modify    %
@@ -43,6 +43,6 @@ z3=z4+whatever*dir(ang);
 % draw %
 draw z4---z3---z2---z1---z7---z8---z9---z10---cycle;
 
-% penlabels(range 0 thru 30);
+penlabels(range 0 thru 30);
 
 endchar;

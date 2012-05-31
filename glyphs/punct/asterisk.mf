@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% MF Adjuster v1.2                                                        %
+% a Metaflop font © 2012 by Simon Egli, Marco Müller                      %
+% www.metaflop.com                                                        %
+%                                                                         %
+% This program is free software: you can redistribute it and/or modify    %
+% it under the terms of the GNU General Public License as published by    %
+% the Free Software Foundation, either version 3 of the License, or       %
+% (at your option) any later version.                                     %
+%                                                                         %
+% This program is distributed in the hope that it will be useful,         %
+% but WITHOUT ANY WARRANTY; without even the implied warranty of          % 
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the            % 
+% GNU General Public License for more details.                            %
+%                                                                         %
+% You should have received a copy of the GNU General Public License       %
+% along with this program. If not, see <http://www.gnu.org/licenses/>.    %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% box dimension definition %
+beginadjchar(oct"052",3,cap#,0);
+
+% sidebearings %
+if (sidebearing=1):
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);fi
+
+% construction %
+x1=x5=leftstemloc;
+x2=x6=w-x1;
+x3=x4=0.5w;
+y1=bar5+0.5bar1;
+y2=bar5-0.5bar1;
+y5=bar5-0.5bar1;
+y6=bar5+0.5bar1;
+y3=h;
+y4=bar4;
+
+% draw %
+draw z1---z2;
+draw z3---z4;
+draw z5---z6;
+
+penlabels(range 0 thru 30);
+
+endchar;
