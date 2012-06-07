@@ -143,6 +143,7 @@ input glyphs/punct/amp
 input glyphs/punct/colon
 input glyphs/punct/comma
 input glyphs/punct/exclam
+input glyphs/punct/question
 input glyphs/punct/hyphen
 input glyphs/punct/period
 input glyphs/punct/plus

@@ -29,22 +29,21 @@ numeric l,r;
 normal_adjust_fit(space*0.3u#,space*0.3u#);fi
 
 % construction %
-x1=x5=leftstemloc;
-x4=x8=w-x1;
-x2=x6;
-x3=x7;
-x9=x10=.5w;
-y2=y3=h;
-y9=0;
-y6=y7=bar1;
-y5=y8=bar2;
+x1=leftstemloc;
+x4=x5=w-x1;
+x6=x7=x9=x10=.5w;
 y1=y4=bar5;
+y2=y3=h;
+y5=bar4;
+y6=bar3;
+y7=bar2;
+y9=0;
 y10=.3bar1;
 z2=z1+whatever*dir(ang); 
-z7=z8+whatever*dir(ang); 
+z4=z3+whatever*dir(-ang); 
 
 % draw %
-draw z1---z2---z3---z4---z5---z6---z7---z8;
+draw z1---z2---z3---z4---z5---z6---z7;
 draw z9---z10;
 
 penlabels(range 0 thru 30);
