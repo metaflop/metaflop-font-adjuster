@@ -9,20 +9,21 @@
 
 
 % box dimension definition %
-beginadjchar(oct"025",5,cap#,0);
+beginadjchar(oct"000",5,cap#,0);
 
 % sidebearings %
 if (sidebearing=1):
 numeric l,r;
 normal_adjust_fit(space*0.3u#,space*0.3u#);fi
 
-% construction %
-x1=leftstemloc;
-x2=w-x1;
-y1=y2=bar3;
+% construction % 
+x13=.3w;
+x12=.7w;
+y12=bar5-0.5bar1;
+y13=bar5;
 
 % draw %
-draw z1---z2;
+draw z12---z13;
 
 penlabels(range 0 thru 30);
 

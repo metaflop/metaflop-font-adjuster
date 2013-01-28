@@ -57,21 +57,27 @@ enddef;
 
 % glyph inputs %
 input glyphs/uc/A
+input glyphs/uc/Agrave
 input glyphs/uc/Adieresis
 input glyphs/uc/B
 input glyphs/uc/C
 input glyphs/uc/D
 input glyphs/uc/E
+input glyphs/uc/Egrave
+input glyphs/uc/Edieresis
 input glyphs/uc/F
 input glyphs/uc/G
 input glyphs/uc/H
 input glyphs/uc/I 
+input glyphs/uc/Igrave
+input glyphs/uc/Idieresis
 input glyphs/uc/J
 input glyphs/uc/K
 input glyphs/uc/L
 input glyphs/uc/M
 input glyphs/uc/N
 input glyphs/uc/O
+input glyphs/uc/Ograve
 input glyphs/uc/Odieresis
 input glyphs/uc/P
 input glyphs/uc/Q
@@ -79,6 +85,7 @@ input glyphs/uc/R
 input glyphs/uc/S
 input glyphs/uc/T
 input glyphs/uc/U
+input glyphs/uc/Ugrave
 input glyphs/uc/Udieresis
 input glyphs/uc/V
 input glyphs/uc/W
@@ -87,21 +94,27 @@ input glyphs/uc/Y
 input glyphs/uc/Z
 
 input glyphs/lc/a
+input glyphs/lc/agrave
 input glyphs/lc/adieresis
 input glyphs/lc/b
 input glyphs/lc/c
 input glyphs/lc/d
 input glyphs/lc/e
+input glyphs/lc/egrave
+input glyphs/lc/edieresis
 input glyphs/lc/f
 input glyphs/lc/g
 input glyphs/lc/h
 input glyphs/lc/i
+input glyphs/lc/igrave
+input glyphs/lc/idieresis
 input glyphs/lc/j
 input glyphs/lc/k
 input glyphs/lc/l
 input glyphs/lc/m
 input glyphs/lc/n
 input glyphs/lc/o
+input glyphs/lc/ograve
 input glyphs/lc/odieresis
 input glyphs/lc/p
 input glyphs/lc/q
@@ -109,6 +122,7 @@ input glyphs/lc/r
 input glyphs/lc/s
 input glyphs/lc/t
 input glyphs/lc/u
+input glyphs/lc/ugrave
 input glyphs/lc/udieresis
 input glyphs/lc/v
 input glyphs/lc/w
@@ -127,6 +141,8 @@ input glyphs/num/7
 input glyphs/num/8
 input glyphs/num/9
 
+input glyphs/punct/grave
+input glyphs/punct/dieresis
 input glyphs/punct/amp
 input glyphs/punct/colon
 input glyphs/punct/comma
