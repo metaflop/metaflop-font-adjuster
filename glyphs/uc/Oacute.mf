@@ -9,7 +9,7 @@
 
 
 % box dimension definition %
-beginadjchar(oct"322",5,cap#,0);
+beginadjchar(oct"323",5,cap#,0);
 
 % sidebearings %
 if (sidebearing=1):
@@ -29,8 +29,8 @@ z2=z1+whatever*dir(-ang);
 z3=z4+whatever*dir(ang);
 x13=.3w;
 x12=.7w;
-y12=h+0.5bar1;
-y13=h+bar1;
+y12=h+bar1;
+y13=h+0.5bar1;
 
 % draw %
 draw z4---z3---z2---z1---z7---z8---z9---z10---cycle;

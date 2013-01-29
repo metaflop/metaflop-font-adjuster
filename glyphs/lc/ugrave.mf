@@ -9,7 +9,7 @@
 
 
 % box dimension definition %
-beginadjchar(oct"372",5,cap#,0);
+beginadjchar(oct"371",5,cap#,0);
 
 % sidebearings %
 if (sidebearing=1):
