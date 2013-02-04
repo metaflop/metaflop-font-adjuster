@@ -9,10 +9,7 @@
 
 
 % box dimension definition %
-beginadjchar(oct"302",5,cap#,0);
-
-if known ps output:
-glyph name "Adieresis"; fi
+beginadjchar(oct"261",5,cap#,0);
 
 % sidebearings %
 if (sidebearing=1):
@@ -20,24 +17,24 @@ numeric l,r;
 normal_adjust_fit(space*0.3u#,space*0.3u#);fi
 
 % construction %
-x1=leftstemloc;
-x3=w-x1;
-x2=.5w;
-y1=y3=0;
-y2=h;
-y4=y5=bar3;
-z4=whatever[z1,z2];
-z5=whatever[z2,z3];
-x12=.3w;
-x13=.7w;
-x14=.5w;
-y12=y13=h+0.5bar1;
-y14=h+bar1;
+x1=x2=x3=leftstemloc;
+x6=x7=w-x1; 
+y2=y7=0;
+y3=y6=bar2;
+y1=y4=y5=bar3;
+z3=z4+whatever*dir(ang); 
+z5=z6+whatever*dir(-ang);
+x12=.2w;
+x15=.8w;
+x13=.4w;
+x14=.6w;
+y12=y14=bar5-0.5bar1;
+y13=y15=bar5;
 
 % draw %
-draw z1---z2---z3;
-draw z4---z5;
-draw z12---z14---z13;
+draw z2---z3---z4---z5---z6---z7;
+draw z1---z2;
+draw z12---z13---z14---z15;
 
 penlabels(range 0 thru 30);
 

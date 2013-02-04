@@ -60,6 +60,7 @@ input glyphs/uc/A
 input glyphs/uc/Aacute
 input glyphs/uc/Agrave
 input glyphs/uc/Acircumflex
+input glyphs/uc/Atilde
 input glyphs/uc/Adieresis
 input glyphs/uc/B
 input glyphs/uc/C
@@ -85,10 +86,12 @@ input glyphs/uc/Lacute
 input glyphs/uc/M
 input glyphs/uc/N
 input glyphs/uc/Nacute
+input glyphs/uc/Ntilde
 input glyphs/uc/O
 input glyphs/uc/Oacute
 input glyphs/uc/Ograve
 input glyphs/uc/Ocircumflex
+input glyphs/uc/Otilde
 input glyphs/uc/Odieresis
 input glyphs/uc/P
 input glyphs/uc/Q
@@ -114,6 +117,7 @@ input glyphs/lc/a
 input glyphs/lc/aacute
 input glyphs/lc/agrave
 input glyphs/lc/acircumflex
+input glyphs/lc/atilde
 input glyphs/lc/adieresis
 input glyphs/lc/b
 input glyphs/lc/c
@@ -139,10 +143,12 @@ input glyphs/lc/lacute
 input glyphs/lc/m
 input glyphs/lc/n
 input glyphs/lc/nacute
+input glyphs/lc/ntilde
 input glyphs/lc/o
 input glyphs/lc/oacute
 input glyphs/lc/ograve
 input glyphs/lc/ocircumflex
+input glyphs/lc/otilde
 input glyphs/lc/odieresis
 input glyphs/lc/p
 input glyphs/lc/q
@@ -178,6 +184,7 @@ input glyphs/num/9
 input glyphs/punct/grave
 input glyphs/punct/acute
 input glyphs/punct/circumflex
+input glyphs/punct/tilde
 input glyphs/punct/dieresis
 input glyphs/punct/amp
 input glyphs/punct/colon
