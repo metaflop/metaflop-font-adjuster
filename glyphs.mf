@@ -93,6 +93,7 @@ input glyphs/uc/Ograve
 input glyphs/uc/Ocircumflex
 input glyphs/uc/Otilde
 input glyphs/uc/Odieresis
+input glyphs/uc/Ohungarumlaut
 input glyphs/uc/P
 input glyphs/uc/Q
 input glyphs/uc/R
@@ -105,11 +106,13 @@ input glyphs/uc/Uacute
 input glyphs/uc/Ugrave
 input glyphs/uc/Ucircumflex
 input glyphs/uc/Udieresis
+input glyphs/uc/Uhungarumlaut
 input glyphs/uc/V
 input glyphs/uc/W
 input glyphs/uc/X
 input glyphs/uc/Y
 input glyphs/uc/Yacute
+input glyphs/uc/Ydieresis
 input glyphs/uc/Z
 input glyphs/uc/Zacute
 
@@ -150,6 +153,7 @@ input glyphs/lc/ograve
 input glyphs/lc/ocircumflex
 input glyphs/lc/otilde
 input glyphs/lc/odieresis
+input glyphs/lc/ohungarumlaut
 input glyphs/lc/p
 input glyphs/lc/q
 input glyphs/lc/r
@@ -162,11 +166,13 @@ input glyphs/lc/uacute
 input glyphs/lc/ugrave
 input glyphs/lc/ucircumflex
 input glyphs/lc/udieresis
+input glyphs/lc/uhungarumlaut
 input glyphs/lc/v
 input glyphs/lc/w
 input glyphs/lc/x
 input glyphs/lc/y
 input glyphs/lc/yacute
+input glyphs/lc/ydieresis
 input glyphs/lc/z
 input glyphs/lc/zacute
 
@@ -186,6 +192,7 @@ input glyphs/punct/acute
 input glyphs/punct/circumflex
 input glyphs/punct/tilde
 input glyphs/punct/dieresis
+input glyphs/punct/hungarumlaut
 input glyphs/punct/amp
 input glyphs/punct/colon
 input glyphs/punct/comma
