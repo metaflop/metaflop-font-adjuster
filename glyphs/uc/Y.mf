@@ -1,20 +1,9 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                                         %
-% MF Adjuster v1.2                                                        %
-% a Metaflop-font © 2013 by Simon Egli, Marco Müller                      %
-% www.metaflop.com                                                        %
-% licensed under gpl v3: www.gnu.org/licenses/                            %
-%                                                                         %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 % box dimension definition %
 beginadjchar("Y",5,cap#,0);
 
 % sidebearings %
-if (sidebearing=1):
 numeric l,r;
-normal_adjust_fit(space*0.3u#,space*0.3u#);fi
+normal_adjust_fit(space*0.05u#,space*0.05u#);
 
 % construction %
 x3=leftstemloc;
@@ -27,6 +16,9 @@ y2=bar3;
 % draw %
 draw z1---z2---z3;
 draw z2---z4; 
+
+% composite glyphs %
+charanchortops_[charcode]=(.5w,h+1/6cap);
 
 penlabels(range 0 thru 30);
 

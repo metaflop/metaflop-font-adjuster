@@ -1,0 +1,30 @@
+% box dimension definition %
+beginadjchar("C",5,cap#,0);
+
+% sidebearings %
+if (sidebearing=1):
+numeric l,r;
+normal_adjust_fit(space*0.3u#,space*0.3u#);fi
+
+% construction %
+x1=x7=leftstemloc;
+x4=x10=w-x1;
+x2=x8;
+x3=x9;
+y2=y3=0;
+y8=y9=h;
+y7=y10=bar5;
+y1=y4=bar1;
+z8=z7+whatever*dir(ang);   
+z9=z10+whatever*dir(-ang);
+
+% draw %
+draw z4..tension c..z3..tension c..z2..tension c..z1..tension c..z7..tension c..z8..tension c..z9..tension c..z10;
+
+% composite glyphs %
+charanchortops_[charcode]=(.5w,h+1/6cap);
+charanchorbots_[charcode]=(.5w,0);
+
+penlabels(range 0 thru 30);
+
+endchar;

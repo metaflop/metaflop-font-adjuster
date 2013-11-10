@@ -1,8 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
-% MF Adjuster v1.2                                                        %
-% a Metaflop font © 2012 by Simon Egli, Marco Müller                      %
+% MF Adjuster v1.3                                                        %
+% � 2013 by Marco Mueller and Simon Egli                                  %
+% thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
 % www.metaflop.com                                                        %
+% licensed under gpl v3: www.gnu.org/licenses/                            %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                                     %
 %                                                                         %
 % This program is free software: you can redistribute it and/or modify    %
 % it under the terms of the GNU General Public License as published by    %
@@ -21,25 +25,26 @@
 
 
 % dimension %
-font_size:=10pt#;% font size  / fixed		
-ht#:=10pt#;      % box height / fixed		
-u#:=1.25pt#;     % unit widht 					$ 0.5 / 2
+font_size:=10pt#;% font size  @hidden
+ht#:=10pt#;      % box height @hidden	
+u#:=1.5pt#;     % unit widht 					$ 0.5 / 2
 px#:=0.5pt#;     % pen width 					$ 0.1 / 2.8 
 py#:=0.5pt#;     % pen height					$ 0.1 / 2.8	
 				
 % proportion %
-cap#:=1ht#;      % cap heigt					$ 0.75 / 1	
-bar1#:=1/6cap#;
-bar2#:=2/6cap#;
-bar3#:=3/6cap#;
-bar4#:=4/6cap#;
-bar5#:=5/6cap#;
+cap#:=1ht#;      % cap heigt  @hidden			$ 0.75 / 1
+bar1#:=1/6cap#;  % @hidden
+bar2#:=2/6cap#;  % @hidden
+bar3#:=3/6cap#;  % @hidden
+bar4#:=4/6cap#;  % @hidden
+bar5#:=5/6cap#;  % @hidden
 ang:=45;         % glyph angle setting           $ 0 / 360
 
 % shape %
 penang:=15;      % pen angle setting             $ 0 / 360
 penshape:=1;     % 1=circle / 2=square / 3=razor
-
+c=1;             % curve tension                 $ 1 / 20
+ 
 % export %
 sidebearing:=1;  % sidebearings (0) off, (1) on for .otf export
 
