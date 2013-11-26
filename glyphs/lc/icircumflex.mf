@@ -1,1 +1,0 @@
-composite(238,25,2,"top",cap#,0);
