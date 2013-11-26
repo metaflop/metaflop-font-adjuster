@@ -586,8 +586,14 @@ def beginadjchar(expr code, unit_width, h, d) =
  pickup adj_pen;
 enddef;
 
-% composite glyphs %
+% end character macros %
 extra_endchar := extra_endchar&"charpictures_[charcode]:=currentpicture;";
+%extra_endchar := extra_endchar&"charwidths_[charcode]=charwd;
+%charheights_[charcode]=charht;
+%chardepths_[charcode]=chardp;
+%charpictures_[charcode]:=currentpicture;";
+
+% composite glyphs %
 def composite(expr codea,codeb,codec,anchor,height,depth) =
  widthb:=charwidths_[codeb];
  beginchar(codea,widthb,height,depth);
