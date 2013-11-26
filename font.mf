@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
 % MF Adjuster v1.3                                                        %
-% © 2013 by Marco Mueller and Simon Egli                                  %
+% Â© 2013 by Marco Mueller and Simon Egli                                  %
 % thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
 % www.metaflop.com                                                        %
 % licensed under gpl v3: www.gnu.org/licenses/                            %

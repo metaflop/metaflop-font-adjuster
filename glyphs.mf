@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
 % MF Adjuster v1.3                                                        %
-% © 2013 by Marco Mueller and Simon Egli                                  %
+% Â© 2013 by Marco Mueller and Simon Egli                                  %
 % thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
 % www.metaflop.com                                                        %
 % licensed under gpl v3: www.gnu.org/licenses/                            %
@@ -929,7 +929,7 @@ def addkernclasss(text a) = %add a kerning class to kernclassess
  kernclassess_[i][0]:=j; % number of chars in current class is stored at 0th position
 enddef;
 
-% hier sollte noch ein check rein, der ŸberprŸft, ob nicht etwa ein existierendes kern Ÿberschrieben wird
+% hier sollte noch ein check rein, der Ã¼berprÃ¼ft, ob nicht etwa ein existierendes kern Ã¼berschrieben wird
 def addlig(expr first,second,third) = % replace first and second to the ligature third
  numeric i,n;
  i:=enc(first);
