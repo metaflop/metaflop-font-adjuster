@@ -12,7 +12,7 @@ y12=h-0.5bar1;
 y13=h;
 
 % draw %
-draw z12---z13;
+draw z12--z13;
 
 % composite anchor %
 charanchortops_[charcode]=(.5w,h);

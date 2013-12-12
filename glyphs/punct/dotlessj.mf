@@ -13,7 +13,7 @@ y5=-bar3;
 z5=z1+whatever*dir(ang); 
 
 % draw %
-draw z5---z1---z2;
+draw z5--z1--z2;
 
 % composite glyphs %
 charanchortops_[charcode]=(.5w,5/6cap);

@@ -19,7 +19,7 @@ z16=z15+whatever*dir(-ang);
 z17=z18+whatever*dir(ang); 
 
 % draw %
-draw z14---z13---z12---z11---z18---z17---z16---z15;
+draw z14--z13--z12--z11--z18--z17--z16--z15;
 
 % composite anchor %
 charanchorbots_[charcode]=(.5w,0);

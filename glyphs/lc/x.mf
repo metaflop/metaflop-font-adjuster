@@ -12,8 +12,8 @@ y3=y2=0;
 y1=y4=bar3;
 
 % draw %
-draw z1---z2;
-draw z3---z4;
+draw z1--z2;
+draw z3--z4;
 
 % composite glyphs %
 charanchortops_[charcode]=(.5w,5/6cap);

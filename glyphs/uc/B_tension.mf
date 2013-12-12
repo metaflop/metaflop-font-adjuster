@@ -20,7 +20,7 @@ y5=bar5;
 z7=z6+whatever*dir(ang); 
 
 % draw %
-draw z1---z3---z4..tension c..z5..tension c..z6..tension c..z7---z2 & z2---z7..tension c..z8..tension c..z9..tension c..z10---cycle;
+draw z1--z3--z4..tension c..z5..tension c..z6..tension c..z7--z2 & z2--z7..tension c..z8..tension c..z9..tension c..z10--cycle;
 
 penlabels(range 0 thru 30);
 

@@ -13,7 +13,7 @@ y3=0;
 y1=bar4;
 
 % draw %
-draw z1---z2---z3;
+draw z1--z2--z3;
 
 penlabels(range 0 thru 30);
 

@@ -19,8 +19,8 @@ z5=z6+whatever*dir(ang);
 z9=z10+whatever*dir(ang); 
 
 % draw %
-draw z3---z4---z5---z6---z7---z8---z9---z10;
-draw z1---z2;
+draw z3--z4--z5--z6--z7--z8--z9--z10;
+draw z1--z2;
 
 % composite glyphs %
 charanchortops_[charcode]=(1.2w,cap);

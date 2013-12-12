@@ -12,7 +12,7 @@ y2=y4=h;
 y1=y5=0;
 
 % draw %
-draw z1---z2---z5---z4;
+draw z1--z2--z5--z4;
 
 % composite glyphs %
 charanchortops_[charcode]=(.5w,h+1/6cap);

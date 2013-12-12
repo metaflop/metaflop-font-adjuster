@@ -25,30 +25,21 @@ space:=3;            % letterspacing (0 = compress)
   w := r-hround(right_adjustment*hppp)-letter_fit#; 
  enddef;
 
-def endchar =
- scantokens extra_endchar;
- chardx:=w;
- shipit;
- endgroup 
-enddef;	
-
-% mode=localfont;
 mode=luxo;
 mode_setup;
-
-% pixel conversions %
-define_pixels(s,u);
-define_blacker_pixels(px,py);
-define_good_x_pixels(leftstemloc, letter_fit);
-define_good_y_pixels(cap, bar1, bar2, bar3, bar4, bar5);
 
 % font infos %
 font_quad:=10u#+0s#;
 font_normal_space:=3u#+0s#;
 font_normal_stretch:=0u#;
 font_normal_shrink:=0u#;
-%font_identifier:="Adjuster"
 font_coding_scheme:="T1";
+
+% pixel conversions %
+define_pixels(s,u);
+define_blacker_pixels(px,py);
+define_good_x_pixels(leftstemloc, letter_fit);
+define_good_y_pixels(bar1, bar2, bar3, bar4, bar5, cap);
 
 % enc numbers %
 def enc(expr name)=
@@ -574,29 +565,29 @@ numeric charwidths_[];   % will store the width of every char at the index of th
 numeric charheights_[];  % as above for heights
 numeric chardepths_[];   % as above for depths
 picture charpictures_[]; % as above for the pictures (the glyphs themselves)
+numeric charitalcorrs_[];% as above for italic corrections
 pair charanchortops_[];  % choose some sensible anchors (top, bot ...)
 pair charanchorbots_[]; 
 
 % begin character macros %
 def beginadjchar(expr code, unit_width, h, d) =
  beginchar(code,unit_width*u#+s#,h,d);
- charwidths_[charcode]=charwd;
- charheights_[charcode]=charht;
- chardepths_[charcode]=chardp;
  pickup adj_pen;
 enddef;
 
 % end character macros %
-extra_endchar := extra_endchar&"charpictures_[charcode]:=currentpicture;";
-%extra_endchar := extra_endchar&"charwidths_[charcode]=charwd;
-%charheights_[charcode]=charht;
-%chardepths_[charcode]=chardp;
-%charpictures_[charcode]:=currentpicture;";
+extra_endchar := extra_endchar&"charpictures_[charcode]:=currentpicture;"
+ &"charwidths_[charcode]=charwd;"
+ &"charheights_[charcode]=charht;"
+ &"chardepths_[charcode]=chardp;"
+ &"charitalcorrs_[charcode]=charic;";
 
 % composite glyphs %
 def composite(expr codea,codeb,codec,anchor,height,depth) =
  widthb:=charwidths_[codeb];
+ charicb:=charitalcorrs_[codeb];
  beginchar(codea,widthb,height,depth);
+ charic:=charicb;
  addto currentpicture also charpictures_[codeb];
  if anchor="top":
   addto currentpicture also charpictures_[codec] shifted 
@@ -607,9 +598,6 @@ def composite(expr codea,codeb,codec,anchor,height,depth) =
  else:
   errmessage "Wrong anchor name";
  fi
- charwidths_[charcode]=charwd;
- charheights_[charcode]=charht;
- chardepths_[charcode]=chardp;
  endchar;
 enddef;
 

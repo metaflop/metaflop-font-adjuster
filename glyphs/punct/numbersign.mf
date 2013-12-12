@@ -18,10 +18,10 @@ y5=y6=bar4;
 y7=y8=bar2;
 
 % draw %
-draw z1---z2;
-draw z3---z4;
-draw z5---z6;
-draw z7---z8;
+draw z1--z2;
+draw z3--z4;
+draw z5--z6;
+draw z7--z8;
 
 penlabels(range 0 thru 30);
 

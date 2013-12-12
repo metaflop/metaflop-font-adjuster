@@ -18,7 +18,7 @@ z16=z15+whatever*dir(-ang);
 z17=z18+whatever*dir(ang); 
 
 % draw %
-draw z11---z12---z13---z14---z15---z16---z17---z18---cycle;
+draw z11--z12--z13--z14--z15--z16--z17--z18--cycle;
 
 % composite anchor %
 charanchortops_[charcode]=(.5w,h);

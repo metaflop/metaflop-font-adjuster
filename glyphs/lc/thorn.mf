@@ -18,8 +18,8 @@ y2=-bar3;
 z5=z6+whatever*dir(-ang);  
 
 % draw %
-draw z4---z5---z6---z7---z8---z9;
-draw z1---z2;
+draw z4--z5--z6--z7--z8--z9;
+draw z1--z2;
 
 penlabels(range 0 thru 30);
 

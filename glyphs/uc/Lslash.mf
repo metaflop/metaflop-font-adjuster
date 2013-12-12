@@ -16,8 +16,8 @@ y4=bar4;
 y5=bar3;
 
 % draw %
-draw z3---z1---z2;
-draw z4---z5;
+draw z3--z1--z2;
+draw z4--z5;
 
 penlabels(range 0 thru 30);
 

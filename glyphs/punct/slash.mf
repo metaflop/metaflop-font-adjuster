@@ -12,7 +12,7 @@ y2=h;
 y1=0;
 
 % draw %
-draw z2---z1;
+draw z2--z1;
 
 penlabels(range 0 thru 30);
 

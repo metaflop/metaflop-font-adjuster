@@ -14,8 +14,8 @@ x3=w;
 x4=.6w;
 
 % draw %
-draw z1---z2;
-draw z3---z4;
+draw z1--z2;
+draw z3--z4;
 
 penlabels(range 0 thru 30);
 

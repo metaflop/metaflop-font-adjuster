@@ -16,8 +16,8 @@ z4=whatever[z1,z2];
 z5=whatever[z2,z3];
 
 % draw %
-draw z1---z2---z3;
-draw z4---z5;
+draw z1--z2--z3;
+draw z4--z5;
 
 % composite glyphs %
 charanchortops_[charcode]=(.5w,h+1/6cap);

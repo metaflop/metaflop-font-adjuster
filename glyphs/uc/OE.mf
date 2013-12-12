@@ -23,9 +23,9 @@ z8=z7+whatever*dir(-ang);
 z9=z10+whatever*dir(ang);
 
 % draw %
-draw z6---z1---z3---z4;
-draw z2---z5;
-draw z10---z9---z8---z7---z13---z14---z15---z16;
+draw z6--z1--z3--z4;
+draw z2--z5;
+draw z10--z9--z8--z7--z13--z14--z15--z16;
 
 penlabels(range 0 thru 30);
 
