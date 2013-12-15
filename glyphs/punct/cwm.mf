@@ -6,11 +6,12 @@ numeric l,r;
 normal_adjust_fit(space*0.3u#,space*0.3u#);
 
 % construction %
-x1=leftstemloc;
+x1=x2=leftstemloc;
 y1=0;
+y2=h;
 
 % draw %
-undraw z1; %just for fontforge
+undraw z1--z2; %just for fontforge
 
 penlabels(range 0 thru 30);
 
