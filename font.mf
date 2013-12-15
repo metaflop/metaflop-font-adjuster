@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
-% MF Adjuster v1.3                                                        %
+% MF Adjuster v1.35                                                       %
 % © 2013 by Marco Mueller and Simon Egli                                  %
 % thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
 % www.metaflop.com                                                        %
@@ -27,7 +27,7 @@
 % dimension %
 font_size:=10pt#;% font size  @hidden
 ht#:=10pt#;      % box height @hidden	
-u#:=1.5pt#;     % unit widht 					$ 0.5 / 2
+u#:=1.5pt#;      % unit widht 					$ 0.5 / 2
 px#:=0.5pt#;     % pen width 					$ 0.1 / 2.8 
 py#:=0.5pt#;     % pen height					$ 0.1 / 2.8	
 				
