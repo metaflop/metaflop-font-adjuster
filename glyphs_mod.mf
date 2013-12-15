@@ -33,7 +33,7 @@ font_quad:=10u#+0s#;
 font_normal_space:=3u#+0s#;
 font_normal_stretch:=0u#;
 font_normal_shrink:=0u#;
-font_coding_scheme:="T1";
+font_coding_scheme:="t1";
 
 % pixel conversions %
 define_pixels(s,u);
