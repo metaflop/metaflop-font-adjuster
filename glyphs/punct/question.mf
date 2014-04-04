@@ -1,9 +1,9 @@
 % box dimension definition %
-beginadjchar(oct"077",5,cap#,0);
+beginadjchar(63,5,cap#,0);
 
 % sidebearings %
 numeric l,r;
-normal_adjust_fit(space*0.1u#,space*0.2u#);
+normal_adjust_fit(space*0.2u#,space*0.2u#);
 
 % construction %
 x1=leftstemloc;

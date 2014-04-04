@@ -15,7 +15,7 @@ y1=y3=0;
 draw z3--z1--z2;
 
 % composite glyphs %
-charanchortops_[charcode]=(.5w,h+1/6cap);
+charanchortops_[charcode]=(.5w,h+bar2);
 
 penlabels(range 0 thru 30);
 

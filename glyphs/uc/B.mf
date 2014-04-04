@@ -19,13 +19,12 @@ y5=bar5;
 z7=z6+whatever*dir(ang); 
 
 % draw %
-draw z1--z3--z4--z5--z6--z7--z2 & z2--z7--z8--z9--z10--cycle;
+draw z1--z3--z4--z5--z6--z7--z2; 
+draw z2--z7--z8--z9--z10--z1--cycle;
 
 % composite glyphs %
-charanchortops_[charcode]=(.5w,h+1/6cap);
+charanchortops_[charcode]=(.5w,h+bar2);
 
 penlabels(range 0 thru 30);
 
 endchar;
-
-

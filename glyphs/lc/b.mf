@@ -3,7 +3,7 @@ beginadjchar("b",5,cap#,0);
 
 % sidebearings %
 numeric l,r;
-normal_adjust_fit(space*0.3u#,space*0.25u#);
+normal_adjust_fit(space*0.35u#,space*0.25u#);
 
 % construction %
 x1=x2=x6=x7=leftstemloc;
