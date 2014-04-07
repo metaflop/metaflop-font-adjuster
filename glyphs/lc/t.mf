@@ -19,7 +19,7 @@ draw z4--z5;
 
 % composite glyphs %
 charanchortops_[charcode]=(w,h);
-charanchorbots_[charcode]=(.375w,0);
+charanchorbots_[charcode]=(.5w,0);
 
 penlabels(range 0 thru 30);
 

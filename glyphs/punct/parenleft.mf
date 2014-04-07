@@ -1,9 +1,9 @@
 % box dimension definition %
-beginadjchar(40,3,cap#,0);
+beginadjchar(40,2,cap#,0);
 
 % sidebearings %
 numeric l,r;
-normal_adjust_fit(space*0.4u#,space*-0.5u#);
+normal_adjust_fit(space*0.3u#,space*0u#);
 
 % construction %
 x9=x3;
