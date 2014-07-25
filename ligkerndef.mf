@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                         %
-% MF Adjuster v1.35                                                       %
-% © 2013 by Marco Mueller and Simon Egli                                  %
+% MF Adjuster v1.36                                                       %
+% © 2014 by Marco Mueller and Simon Egli                                  %
 % thanks to Christian Vetter, Linus Roemer, Alexis Reigel                 %
 % www.metaflop.com                                                        %
 % licensed under gpl v3: www.gnu.org/licenses/                            %
@@ -103,10 +103,10 @@ addclasskern("P","c",-u#);
 addclasskern("P","cacute",0u#); 
 addclasskern("P","j",-.25u#);
 addclasskern("P","period",-.75u#); 
-%addclasskern("Thorn","T",-.5u#); 
-%addclasskern("Thorn","V",-.25u#); 
-%addclasskern("Thorn","X",-.5u#); 
-%addclasskern("Thorn","period",-1.5u#); 
+addclasskern("Thorn","T",-.25u#); 
+addclasskern("Thorn","V",0u#); 
+addclasskern("Thorn","X",0u#); 
+addclasskern("Thorn","period",-.5u#); 
 addclasskern("Q","T",-.25u#); 
 addclasskern("Q","period",-.25u#); 
 addclasskern("R","C",0u#);
@@ -168,6 +168,7 @@ addclasskern("a","v",0u#);
 addclasskern("b","t",-.25u#); 
 addclasskern("b","tcaron",-.25u#); 
 addclasskern("b","v",-.25u#);
+addclasskern("b","x",-.25u#);
 addclasskern("c","c",-.25u#);  
 addclasskern("c","cacute",-.25u#);  
 addclasskern("d","c",0u#);  
@@ -186,15 +187,16 @@ addclasskern("l","t",-.5u#);
 addclasskern("l","tcaron",-.5u#);
 addclasskern("l","v",-.25u#);
 addclasskern("l","y",-.25u#); 
-addclasskern("l","ydieresis",-.25u#); 
+addclasskern("l","ydieresis",-.25u#);
+addclasskern("p","x",-.25u#); 
 addclasskern("p","j",-.25u#);
 addclasskern("p","v",-.25u#);
 addclasskern("p","period",-.5u#); 
-%addclasskern("thorn","t",-.5u#); 
-%addclasskern("thorn","tcaron",-.5u#);
-%addclasskern("thorn","v",-.25u#); 
-%addclasskern("thorn","x",-u#); 
-%addclasskern("thorn","period",-3u#); 
+addclasskern("thorn","t",-.5u#); 
+addclasskern("thorn","tcaron",-.5u#);
+addclasskern("thorn","v",-.25u#); 
+addclasskern("thorn","x",-.25u#); 
+addclasskern("thorn","period",-.5u#); 
 addclasskern("q","t",-.25u#);
 addclasskern("q","period",0u#); 
 addclasskern("r","c",-.25u#);
@@ -223,13 +225,13 @@ addclasskern("y","period",-.75u#);
  addlig("f","l","fl"); 
  addlig("ff","i","ffi"); 
  addlig("ff","l","ffl"); 
- %addlig("quoteleft","quoteleft","quotedblleft"); 
- %addlig("quoteright","quoteright","quotedblright"); 
- %addlig("hyphen","hyphen","endash"); 
- %addlig("endash","hyphen","emdash"); 
- %addlig("less","less","guillemotleft"); 
- %addlig("greater","greater","guillemotright"); 
- %addlig("exclam","quoteleft","exclamdown"); 
- %addlig("question","quoteleft","questiondown"); 
+ addlig("quoteleft","quoteleft","quotedblleft"); 
+ addlig("quoteright","quoteright","quotedblright"); 
+ addlig("hyphen","hyphen","endash"); 
+ addlig("endash","hyphen","emdash"); 
+ addlig("less","less","guillemotleft"); 
+ addlig("greater","greater","guillemotright"); 
+ addlig("exclam","quoteleft","exclamdown"); 
+ addlig("question","quoteleft","questiondown"); 
 
 writeligtable;
