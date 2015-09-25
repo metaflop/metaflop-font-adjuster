@@ -144,6 +144,7 @@ input glyphs/punct/braceleft
 input glyphs/punct/bar
 input glyphs/punct/braceright
 input glyphs/punct/asciitilde
+input glyphs/punct/softhyphen
 
 input glyphs/uc/Abreve
 input glyphs/uc/Aogonek
@@ -252,25 +253,25 @@ input glyphs/lc/adieresis
 input glyphs/lc/aring
 input glyphs/lc/ae
 input glyphs/lc/ccedilla
-input glyphs/lc/eacute
 input glyphs/lc/egrave
+input glyphs/lc/eacute
 input glyphs/lc/ecircumflex
 input glyphs/lc/edieresis
-input glyphs/lc/iacute
 input glyphs/lc/igrave
+input glyphs/lc/iacute
 input glyphs/lc/icircumflex
 input glyphs/lc/idieresis
 input glyphs/lc/eth
 input glyphs/lc/ntilde
-input glyphs/lc/oacute
 input glyphs/lc/ograve
+input glyphs/lc/oacute
 input glyphs/lc/ocircumflex
 input glyphs/lc/otilde
 input glyphs/lc/odieresis
 input glyphs/lc/oe
 input glyphs/lc/oslash
-input glyphs/lc/uacute
 input glyphs/lc/ugrave
+input glyphs/lc/uacute
 input glyphs/lc/ucircumflex
 input glyphs/lc/udieresis
 input glyphs/lc/yacute

@@ -8,6 +8,7 @@
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
+
 input glyphs/acc/dotaccent
 
 input glyphs/punct/quotesinglbase
@@ -109,3 +110,5 @@ input glyphs/lc/w
 input glyphs/lc/x
 input glyphs/lc/y
 input glyphs/lc/z
+
+input glyphs/punct/softhyphen
